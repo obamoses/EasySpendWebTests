@@ -1,0 +1,13 @@
+node_modules/
+
+# Playwright outputs
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
+
+# Secrets — never commit these
+.env
+credentials.json
+token.json
